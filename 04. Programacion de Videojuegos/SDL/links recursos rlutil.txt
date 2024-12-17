@@ -1,0 +1,7 @@
+ link de la página de rlutil, en la que está la documentación y link a github para la descarga.
+
+LINK AL VIDEO: https://www.youtube.com/watch?v=UeBgVGOwvfU
+LINK A GITHUB: https://github.com/tapio/rlutil
+LINK A LA DOCUMENTACION: https://tapiov.net/rlutil/docs/HTML/files/docs/APIReference-txt.html
+
+Haga clic en el enlace https://youtu.be/UeBgVGOwvfU?si=7dXCvo7VsfcVLYIj para abrir el recurso.

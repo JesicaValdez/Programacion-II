@@ -1,0 +1,30 @@
+class FiguraGeometrica
+{
+protectec:
+char nombre[25];
+float longitud;
+
+public:
+const char *getNombre(){return nombre;}
+int getLongitud(){return longitud;]  
+
+void setNombre(const char* n){strcpy(nombre,n);}
+void setlongitud (float l) {longitud=l;}
+
+};
+
+
+class Triangulo : public FiguraGeometrica
+{
+private:
+float base,altura;
+
+public:
+
+float getBase(){return base;]
+float getAltura(){return altura;]
+
+void setBase(float b){base=b;}
+void setAltura (float a) {altura=a;}
+}
+

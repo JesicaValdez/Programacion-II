@@ -1,0 +1,7 @@
+Preguntas:
+1-Generar un archivo con el código de material, el tipo y el importe total de las compras de ese material para el año actual. Es decir, por cada material se debe registrar el código de material, el tipo, y el importe total de las compras de ese material en el año actual
+
+2-La cantidad de obras de cada provincia
+
+3-Describa brevemente cual es el uso del constructor y el destructor de una clase que genera sus objetos de manera dinámica.
+Un ejemplo de ese tipo de clases es el de la clase Pila vista en clase.

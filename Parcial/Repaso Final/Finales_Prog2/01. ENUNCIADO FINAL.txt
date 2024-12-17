@@ -1,0 +1,276 @@
+************************* ENUNCIADO FINAL 1
+
+
+************************* ENUNCIADO FINAL A
+//1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+//guías.dat: 
+DNI (int), 
+nombre y apellido (char[50]), 
+código de nacionalidad (1 a 50), 
+nivel (1 a 15) 
+fecha de nacimiento.
+//(6 puntos)
+
+//2) Agregar un constructor para alguna de las clases del ejercicio 1.
+//El método debe poner en 0 alguna propiedad de tipo int si no se le envía valor; si se envía un valor debe usar el valor enviado para la propiedad.
+//(2 puntos)
+
+2A) Agregar un constructor para la clase que da formato a los registros de archivo con valores por omision que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omision (2 puntos)
+
+//3) Listar el archivo del punto 1 usando asignación dinámica de memoria.
+//Se deben copiar los registros en el vector dinámico que tengan una fecha anterior a una fecha que se ingresa por teclado (2 puntos)
+
+4) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+
+
+************************* ENUNCIADO FINAL B
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+Partidos.dat
+
+Código de partido (entero)
+Código de sede (entero)
+Código de equipo 1 (local)
+Código de equipo 2 (visitante)
+Fecha de realización (Objeto Fecha)
+Nombre del árbitro
+Estado
+
+2) Agregar un constructor para alguna de las clases del ejercicio 1. El método debe poner en 0 alguna propiedad de tipo int si no se le envía valor; si se envía un valor debe usar el valor enviado para la propiedad.
+
+(2 puntos)
+3) Listar el archivo del punto 1 usando asignación dinámica de memoria. Se deben copiar los registros en el vector dinámico que tengan una fecha anterior a una fecha que se ingresa por teclado (2 puntos)
+
+
+************************* ENUNCIADO FINAL C
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+Equipos.dat
+
+Código de equipo (entero)
+Nombre de equipo (char[30])
+Provincia a la que pertenece (1 a 24)
+Director técnico (char[30])
+División (‘A’,’B’,’C’) (categoría)
+Estado
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+
+
+************************* ENUNCIADO FINAL FINAL D
+1) Desarrolla un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+Jugadores.dat
+
+Código de jugador (entero)
+Nombre (char[30])
+Codigo de equipo al que pertenece (entero)
+Numero de camiseta (entero)
+Fecha de nacimiento(entero)
+Estado
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+
+
+************************* ENUNCIADO FINAL FINAL E
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+restaurantes.dat
+
+Código de restaurante (entero)
+Nombre (char[30])
+Provincia a la que pertenece (1 a 24)
+Gerente (char[30])
+Categoría de restaurante (1 a 4)
+bool estado;
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse
+en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+
+
+************************* ENUNCIADO FINAL E
+1) El área de desarrollo de una empresa de software tiene, entre otros, los siguientes archivos en su sistema:
+
+programadores.dat: 
+DNI (int), 
+nombre y apellido (char[50]), 
+número de oficina (entero entre 1 y 30), 
+categoría (1 a 5) y especialidad(1 a 10).
+
+Asignaciones.dat: 
+DNI del programador (int), 
+fecha (día, mes y año), 
+tipo de tarea (1 a 5), 
+número de proyecto.
+
+El archivo tiene las asignaciones de los investigadores a los proyectos desde el año 2018 a la fecha.
+
+Se pide:
+a) Generar un archivo nuevo con las asignaciones de los programadores de categoría 5. Cada registro del archivo debe tener el siguiente formato:
+DNI
+el nombre y apellido del programador, 
+y la cantidad de asignaciones. (3 puntos)
+
+b) Informar la especialidad con más programadores (3 puntos).
+Desarrollar la clase necesaria para el nuevo archivo. Suponer que el resto de las clases necesarias para la resolución del ejercicio exiten.
+
+2) Agregar una sobrecarga de un operador para alguna de las clases del ejercicio 1. La sobrecarga debe recibir como parámetro un objeto Fecha.
+
+3) Suponiendo que existe una clase de nombre Animal, crear una clase de nombre Reptil utilizando el mecanismo de la herencia. Reptil tiene que tener como propiedades, además de las definidas en Animal, las siguientes:
+
+Color(char[30]) y 
+ambiente (‘t’: terrestre; ‘m’: marino).
+
+Cómo métodos agregar los sets() y gets() de las propiedades de la línea anterior.
+
+
+************************* ENUNCIADO FINAL F
+1) Desarrollar un programa con un menú principal para dar de alta, baja lógica y listado del siguiente archivo
+
+Asignaciones.dat
+
+Numero de asignación
+Legajo del programador 
+Codigo de proyecto
+Localidad del proyecto(1 a 30)
+comentario (char[100])
+Fecha de asignación
+Estado
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato al registro del archivo con valores por omision que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omision (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa(2 puntos)
+
+
+
+************************* ENUNCIADO FINAL G
+1) El área de estadística de la Secretaría de Políticas Universitarias tiene, entre otros, los siguientes archivos en su sistema:
+
+docentes.dat: 
+DNI (int), 
+nombre y apellido (char[50]), 
+provincia (entero entre 1 y 24), 
+categoría (1 a 7) 
+especialidad(1 a 50), 
+año de ingreso.
+
+concursos.dat: 
+DNI del docente (int), 
+fecha (día, mes y año), 
+número de universidad (1 a 80), 
+número de concurso, 
+tipo de cargo a concursar (1: titular; 2: adjunto; 3: jefe de trabajos prácticos; 4: ayudante).
+
+El archivo tiene los concursos de los docentes desde el año 2000 a la fecha.
+
+Se pide:
+a) Generar un archivo nuevo con los concursos realizados hasta el año 2010 incluido. Cada registro del archivo debe tener el siguiente formato:
+- Número de concurso, DNI, el nombre y apellido del docente (3 puntos)
+
+b) Informar cuál es el año con más concursos  (3 puntos).
+Desarrollar la clase para el archivo nuevo. Suponer que el resto de las clases existen.
+
+2) Agregar una sobrecarga de un operador para alguna de las clases del ejercicio 1 que sea útil para el desarrollo de alguno de los puntos que se piden (2 puntos)
+
+3) Hacer un constructor para la clase nueva del ejercicio 1  (2 puntos)
+
+****************************************** ENUNCIADO FINAL G
+1)La NASA tiene, entre otros, los siguientes archivos en su sistema: 
+Astronautas.dat 
+
+DNI (int)
+nombre y apellido(char[50])
+país(entero 1 y 50)
+categoría(1 a 15)
+
+Misiones.dat
+
+Numero de misión
+DNI del astronauta(int)
+Fecha de inicio(dia, mes, anio)
+cargo(1 a 10)
+
+El archivo tiene registros desde el año 2000 a la fecha, puede haber muchos registros para cada misión, y un astronauta puede participar de muchas misiones
+
+Se pide:
+a) Generar un archivo con los astronautas y cantidad de misiones (3 puntos)
+c) Generar un archivo con los astronautas del país 1 que hayan participado de misiones con
+el siguiente formato de registro:
+DNI, nombre y apellido del astronauta (3 puntos)
+d) La categoría con mas astronautas  (3 puntos)
+e) La categoría con menos astronautas  (3 puntos)
+
+2) Agregar un constructor para alguna de las clases del ejercicio 1, que reciba como parámetro un objeto de una clase distinta, y que inicialice las propiedades que sean comunes entre ambos objetos(2 puntos)
+
+3) Agregar un constructor para alguna de las clases del ejercicio 1, que reciba como parámetro una cadena de caracteres (2 puntos).
+
+3) Defina qué es el mecanismo de la herencia, y si se aplica en alguna de las clases del ejercicio
+
+4) Defina qué es el mecanismo de la composición, y si se aplica en alguna de las clases del
+ejercicio 1 (2 puntos).
+
+
+****************************************** ENUNCIADO FINAL H
+1) Desarrollar un programa con un menú principal para dar el alta, baja lógica y listados del siguiente archivo:
+
+Descensos.dat
+
+DNI del buzo(int)
+Fecha (dia, mes, anio)
+Codigo de mar (1 a 15)
+nivel de dificultad (inicial 1; intermedio 2; avanzado 3)
+profundidad (float)
+(6 puntos)
+
+2) Agregar un constructor para alguna de las clases del ejercicio 1. El método debe poner en 0 alguna propiedad de tipo int si no se le envia valor; si se envia un valor debe usar el valor enviado para la propiedad (2 puntos)
+
+3) Listar el archivo del punto 1 usando asignación dinámica de memoria. Se deben copiar los registros en el vector dinamico que tengan una fecha anterior a una fecha que se ingresa por teclado (2 puntos)
+
+
+****************************************** ENUNCIADO FINAL I
+1) Una empresa que realiza instalaciones sanitarias  tiene, entre otros, los siguientes archivos en su sistema:
+Tecnicos.dat: 
+
+DNI (int), 
+nombre y apellido (char[50]), 
+puesto (1 a 10), 
+sueldo, 
+fecha de ingreso.
+
+Tecnicos_obras.dat: 
+Número de obra, 
+DNI del técnico (int), 
+fecha de inicio(día, mes y año), 
+tipo (1 a 5).
+
+El archivo tiene registros desde el año 2020 a la fecha; puede haber muchos registros para cada obra, y un técnico puede participar de muchas obras. 
+
+Se pide:
+a) Generar un archivo nuevo con el siguiente formato de registro:
+DNI, nombre y apellido de los técnicos y cantidad de obras de tipo 1 en las que haya participado. (3 puntos).
+b) La cantidad de técnicos en cada puesto (3 puntos).
+Desarrollar todas las clases que se consideren necesarias para la resolución del ejercicio. No es obligatorio codificar de manera completa los métodos; se considera suficiente que se coloquen los prototipos dentro de las clases.
+
+2) Agregar un constructor para alguna de las clases que reciba como parámetro una cadena.
+
+3) ¿Es posible que una clase tenga varios sobrecargas para un mismo operador?. Justifique la respuesta
+
+
+****************************************** ENUNCIADO FINAL J
+1-Generar un archivo con el código de material, el tipo y el importe total de las compras de ese material para el año actual. Es decir, por cada material se debe registrar el código de material, el tipo, y el importe total de las compras de ese material en el año actual
+
+2-La cantidad de obras de cada provincia
+
+3-Describa brevemente cual es el uso del constructor y el destructor de una clase que genera sus objetos de manera dinámica.
+Un ejemplo de ese tipo de clases es el de la clase Pila vista en clase.
+
+

@@ -1,0 +1,132 @@
+void cargarCadena(char *pal, int tam);
+
+void cargarCadena(char *pal, int tam){
+    int i;
+    fflush(stdin);
+    for (i=0; i<tam; i++)
+    {
+        pal[i] = cin.get();
+        if(pal[i] == '\n')break;
+    }
+    pal[i]='\0';
+    fflush(stdin);
+}
+
+class Fecha{
+private:
+    int dia, mes, anio;
+public:
+    Fecha(int d=0, int m=0, int a=0)
+    {
+        dia=d;
+        mes=m;
+        anio=a;
+    }
+    void Cargar();
+    void Mostrar();
+    //sets
+    void setDia(int x){if(x>0 && x<32) dia=x;}
+    void setMes(int x){if(x>0 && x<13) mes=x;}
+    void setAnio(int x){anio=x;}
+    //gets
+    int getDia(){return dia;}
+    int getMes(){return mes;}
+    int getAnio(){return anio;}
+};
+
+void Fecha::Cargar(){
+    cout<<"DIA: ";
+    cin>>dia;
+    cout<<"MES: ";
+    cin>>mes;
+    cout<<"ANIO: ";
+    cin>>anio;
+}
+
+void Fecha::Mostrar(){
+    cout<<dia<<"/"<<mes<<"/"<<anio<<endl;
+}
+
+int main (){
+ setlocale(LC_ALL, ""); 
+
+  int opc;
+    while(true){
+        system("cls");
+        cout<<"Menu Principal"<<endl;
+        cout<<"---------------------"<<endl;
+        cout<<"1 - Cargar registro"<<endl;
+        cout<<"2 - Mostrar archivo"<<endl;
+        cout<<"3 - Buscar "<<endl; 
+        cout<<"4 - Mostar PorFecha"<<endl; 
+        cout<<"5 - Eliminar registro en el archivo"<<endl;
+        cout<<"6 - Modificar registro "<<endl;
+        cout<<"0 - Salir del Programa"<<endl;
+        cout<<"---------------------"<<endl;
+        cin>>opc;
+        system("cls");
+
+        switch(opc)
+        {
+        case 1:
+            /*
+            if(aux.agregarRegistro()!=1){
+                cout<<"No se pudo agregar el registro"<<endl;
+            }
+            else{
+                cout<<"Registro agregado"<<endl;
+            }
+            break;
+        case 2:
+            if(aux.listarArcihvo()==false){
+                cout<<"No se pudo abrir el archivo"<< endl;
+            }
+            */
+            break;
+        case 3:
+        {
+	    /*
+            int elementoABuscar;
+            cout<<"Ingrese el ... a buscar: ";
+            cin>>elementoABuscar;;
+            int pos = aux.buscarDNI(elementoABuscar;);
+            if(pos== -1)
+            {
+                cout<< "No existe un registro con ese elementoABuscar;"<< endl;
+            }
+            else
+            {
+                aux.leerRegistro(pos).Mostrar();
+            }
+            */
+            break;
+        }
+        case 4:
+        {
+            Fecha fecha;
+            cout<<"Ingrese la fecha (DIA/MES/ANIO): "<<endl;
+            fecha.Cargar();
+            aux.mostrarPorFecha(fecha);
+            break;
+        }
+        case 5:
+            //aux.bajaLogica();
+            break;
+        case 6:
+            //aux.modificarEmail();
+            break;
+        case 0:
+            return 0;
+            break;
+        default:
+            cout<<"Opcion invalida";
+            break;
+        }
+        cout<<endl;
+        system("pause");
+    }
+ 
+
+return 0;   
+}
+

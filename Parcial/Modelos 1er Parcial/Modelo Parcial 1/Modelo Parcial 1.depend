@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1684105878 source:c:\users\gmontemuro\documents\github\laboratorio-2\modelo parcial 1\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"parcialm1.h"
+
+1684101669 c:\users\gmontemuro\documents\github\laboratorio-2\modelo parcial 1\parcialm1.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+
